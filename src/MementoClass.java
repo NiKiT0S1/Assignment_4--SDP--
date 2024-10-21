@@ -1,0 +1,2 @@
+public class MementoClass {
+}
