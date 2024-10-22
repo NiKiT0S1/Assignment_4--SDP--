@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class Interpreter {
 
-    // The evaluate method accepts a string expression and calculates its result.
+    // "evaluate" method accepts a string expression and calculates its result.
     public static int evaluate(String expression) {
 
         // We split the string into tokens (numbers and operators), using a space as a separator.
@@ -49,7 +49,7 @@ public class Interpreter {
     }
 
     /**
-     * The hasPrecedence method determines the priority of operations.
+     * "hasPrecedence" method determines the priority of operations.
      * In this case, all operations (+ and -) have the same priority.
      */
     private static boolean hasPrecedence(char op1, char op2) {

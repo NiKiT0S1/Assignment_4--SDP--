@@ -13,7 +13,7 @@ public class OperationExpression implements Expression {
     }
 
     /**
-     * The interpret method performs an operator-based calculation.
+     * "interpret" method performs an operator-based calculation.
      * Depending on which operator was passed, the corresponding operation is performed (addition or subtraction).
      */
     @Override

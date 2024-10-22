@@ -7,8 +7,8 @@ public class NumberExpression implements Expression {
     }
 
     /**
-     * The interpret method returns a numeric value.
-     * Is an implementation of a method from the Expression interface that simply returns a number.
+     * "interpret" method returns a numeric value.
+     * Is an implementation of a method from "Expression" interface that simply returns a number.
      */
     @Override
     public int interpret() {
